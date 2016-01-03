@@ -1,0 +1,9 @@
+DEPRECATION WARNING: alias_method_chain is deprecated. Please, use Module#prepend instead. From module, you can access the original method using super. (called from block in tsort_each at /home/ubuntu/.rvm/rubies/ruby-2.3.0/lib/ruby/2.3.0/tsort.rb:228)
+DEPRECATION WARNING: before_filter is deprecated and will be removed in Rails 5.1. Use before_action instead. (called from <top (required)> at /home/ubuntu/Desktop/venkat/myapp5.0/app/controllers/application_controller.rb:1)
+DEPRECATION WARNING: after_filter is deprecated and will be removed in Rails 5.1. Use after_action instead. (called from <top (required)> at /home/ubuntu/Desktop/venkat/myapp5.0/app/controllers/application_controller.rb:1)
+
+
+Started GET "/" for 127.0.0.1 at 2016-01-03 16:14:29 +0530
+Processing by Rails::WelcomeController#index as HTML
+  Rendered /home/ubuntu/.rvm/gems/ruby-2.3.0@rails5.0/gems/railties-5.0.0.beta1/lib/rails/templates/rails/welcome/index.html.erb (12.5ms)
+Completed 200 OK in 230ms (Views: 74.4ms | ActiveRecord: 0.0ms)
